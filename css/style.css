@@ -87,7 +87,7 @@ header.site-header {
     z-index: 999;
 }
 
-/*  */
+/* new */
 .herobanner {
     min-height: 580px;
     padding: 100px 0;
@@ -143,7 +143,7 @@ header.site-header {
     font-style: normal;
     text-decoration: none;
     line-height: 1.6em;
-    color: #fff
+    color: #fff;
 }
 
 .cta-container {
@@ -153,11 +153,12 @@ header.site-header {
 
 }
 
-/*new service*/
+/*new section service*/
 
 .service {
     padding: 60px 40px;
     max-width: 100%;
+    background-color: #000;
 }
 
 .hd-wrap {
@@ -191,7 +192,7 @@ header.site-header {
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
-    color: #e6e2e2;
+    color: #7a7a7a;
 }
 
 .hd-wrap a {
@@ -204,7 +205,9 @@ header.site-header {
     margin-bottom: 30px;
 }
 
-
+.col-md-4 {
+    margin: 10px 0px;
+}
 
 .row-one {
     display: grid;
@@ -277,6 +280,14 @@ header.site-header {
 
 /*newdesing*/
 
+.design {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.dsign-content {
+    max-width: 768px;
+}
 
 .dsign-content h2 {
     font-family: "Montserrat", Sans-serif;
@@ -349,6 +360,8 @@ header.site-header {
 display: flex;
 justify-content: end;
 }
+
+
 .btn-des {
     text-decoration: none;
     font-size: 16px;
@@ -364,6 +377,11 @@ justify-content: end;
 }
 
 /*newdesingwarp*/
+
+.dw-text-two {
+    max-width: 999px;
+}
+
 .designwarp-two {
     display: flex;
     flex-direction: row;
@@ -399,10 +417,22 @@ justify-content: end;
     margin-bottom: 10px;
 }
 
-.img-box-two img {
-    border-radius: 50px;
-    object-fit: cover;
+.img-box-two i {
+    color: #c62828;
+    font-size: 20px;
 }
+
+.img-box-two{
+    flex: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
 
 .btn-des-two {
     padding: 15px 15px;
@@ -428,6 +458,12 @@ justify-content: end;
     object-position: center center;
     border-radius: 20px 20px 20px 20px;
 }
+
+/*des-warp*/
+.new-wrap {
+    max-width: 550px;
+}
+
 
 /*tech*/
 
@@ -491,6 +527,7 @@ justify-content: end;
 
 .col-tech {
     padding: 10px;
+    max-width: 350px;
 }
 
 .col-tech h2 {
@@ -523,7 +560,7 @@ justify-content: end;
     padding-bottom: 40px;
 }
 
-.fea-hd h2 {
+.text-wrapp h2 {
     font-family: "Montserrat", Sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -534,7 +571,7 @@ justify-content: end;
     color: #000;
 }
 
-.fea-hd p {
+.text-wrapp p {
     text-align: start;
     font-family: "Inter", Sans-serif;
     font-size: 18px;
@@ -546,7 +583,7 @@ justify-content: end;
     color: #7a7a7a
 }
 
-.fea-hd a {
+.text-wrapp a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -556,6 +593,9 @@ justify-content: end;
     margin-bottom: 30px;
 }
 
+.col-md-6 {
+    margin: 10px 0px;
+}
 
 
 
@@ -587,7 +627,9 @@ justify-content: end;
     color: #7a7a7a
 }
 
-
+.warp-text {
+    max-width: 450px;
+}
 
 .warp-content {
     display: flex;
