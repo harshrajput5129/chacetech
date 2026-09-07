@@ -7,6 +7,7 @@
   <title>Chatech</title>
   <!--  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <!--  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css" />
   <!--  -->
@@ -174,7 +175,7 @@
               <button type="button" class="btnnn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
   </section>
 
@@ -196,7 +197,7 @@
             </p>
             <div class="info-item">
               <div class="img-box">
-              <i class="fa-regular fa-circle-check"></i>
+                <i class="fa-regular fa-circle-check"></i>
               </div>
               <div class="info-text">
                 <h3>Early Stage Planning</h3>
@@ -205,7 +206,7 @@
             </div>
             <div class="info-item">
               <div class="img-box">
-              <i class="fa-regular fa-circle-check"></i>
+                <i class="fa-regular fa-circle-check"></i>
               </div>
               <div class="info-text">
                 <h3>Pre-Drywall Installation</h3>
@@ -214,7 +215,7 @@
             </div>
             <div class="info-item">
               <div class="img-box">
-              <i class="fa-regular fa-circle-check"></i>
+                <i class="fa-regular fa-circle-check"></i>
               </div>
               <div class="info-text">
                 <h3>No Retrofitting Required</h3>
@@ -315,7 +316,7 @@
             </div>
             <h2>Consultation & Planning</h2>
             <p>We collaborate with you and your architect
-              during the design phase to map out your 
+              during the design phase to map out your
               technology needs before construction begins.</p>
           </div>
           <div class="col-tech">
@@ -324,7 +325,7 @@
             </div>
             <h2>Infrastructure Installation</h2>
             <p>Our technicians install enterprise-grade cabling,
-              networking, and hardware backbones while the 
+              networking, and hardware backbones while the
               walls are still open.</p>
           </div>
           <div class="col-tech">
@@ -333,7 +334,7 @@
             </div>
             <h2>System Integration</h2>
             <p>After finishing, we install the visible hardware
-              and program a seamless automation system for 
+              and program a seamless automation system for
               lighting, AV, and security.</p>
           </div>
         </div>
@@ -402,27 +403,73 @@
         <h2>What Our Clients Say</h2>
         <p>Don't just take our word for it. Hear from the builders and homeowners who trust ChaceTech AV.</p>
       </div>
-      <div class="warp-content">
-        <div class="warp-img">
-          <img src="img/mi4.png" alt="image">
-        </div>
-        <div class="warp-text">
-          <div class="icons">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+
+      <!--  -->
+      <!-- Slider main container -->
+      <div class="swiper testimonial-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="warp-content">
+              <div class="warp-img">
+                <img src="img/mi4.png" alt="image">
+              </div>
+              <div class="warp-text">
+                <div class="icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>“As a custom home builder, finding reliable low-voltage
+                  contractors is tough. ChaceTech AV comes in during
+                  framing, runs their wire perfectly, and their final trim-
+                  out is flawless.”</p>
+                <h5>Michael R.</h5>
+                <span>Luxury Work Builder</span>
+              </div>
+            </div>
           </div>
-          <p>“As a custom home builder, finding reliable low-voltage 
-            contractors is tough. ChaceTech AV comes in during 
-            framing, runs their wire perfectly, and their final trim-
-            out is flawless.”</p>
-          <h5>Michael R.</h5>
-          <span>Luxury Work Builder</span>
+          <div class="swiper-slide">
+            <div class="warp-content">
+              <div class="warp-img">
+                <img src="img/mi4.png" alt="image">
+              </div>
+              <div class="warp-text">
+                <div class="icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>“As a custom home builder, finding reliable low-voltage
+                  contractors is tough. ChaceTech AV comes in during
+                  framing, runs their wire perfectly, and their final trim-
+                  out is flawless.”</p>
+                <h5>Michael R.</h5>
+                <span>Luxury Work Builder</span>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
+      <!--  -->
+
+
     </div>
   </section>
+
+  <!--  -->
+  <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="./js/custom.js"></script>
 </body>
 
 </html>
