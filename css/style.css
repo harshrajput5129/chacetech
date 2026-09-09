@@ -10,6 +10,11 @@ img {
     width: 100%;
 }
 
+ol,
+ul {
+    padding-left: 0;
+}
+
 /* Common */
 .btn {
     padding: 15px 35px;
@@ -356,9 +361,9 @@ header.site-header {
 }
 
 
-.hd-wrap .link{
-display: flex;
-justify-content: end;
+.hd-wrap .link {
+    display: flex;
+    justify-content: end;
 }
 
 
@@ -422,7 +427,7 @@ justify-content: end;
     font-size: 20px;
 }
 
-.img-box-two{
+.img-box-two {
     flex: none;
     width: 30px;
     height: 30px;
@@ -431,7 +436,7 @@ justify-content: end;
     display: flex;
     align-items: center;
     justify-content: center;
-}   
+}
 
 
 .btn-des-two {
@@ -627,15 +632,59 @@ justify-content: end;
     color: #7a7a7a
 }
 
-.warp-text {
-    max-width: 450px;
-}
 
 .warp-content {
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     margin-top: 40px;
-    border-radius: 20px
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+}
+
+.warp-img {
+    width: 50%;
+}
+
+.warp-img img {
+    object-fit: cover;
+    min-height: 510px;
+}
+
+.warp-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.testimonial-slider .swiper-pagination {
+    position: unset;
+    margin-top: 20px;
+}
+
+.testimonial-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 25px;
+    border-radius: 20px;
+    background-color: #F60808;
+}
+
+.testimonial-slider .swiper-button-prev,
+.testimonial-slider .swiper-button-next {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.testimonial-slider .swiper-button-prev svg,
+.testimonial-slider .swiper-button-next svg {
+    width: 14px;
+    height: 14px;
+
+}
+
+.testimonial-slider .swiper-button-prev svg path,
+.testimonial-slider .swiper-button-next svg path {
+    fill: #F60808;
 }
 
 .icons {
@@ -717,7 +766,7 @@ justify-content: end;
 /**/
 
 .footer {
-    
+
     background-color: #0b0c10;
     color: #ffffff;
     padding: 60px 0px 30px 0px;
@@ -736,7 +785,7 @@ justify-content: end;
     font-weight: 600;
     margin-bottom: 20px;
     color: #fff;
-    
+
 }
 
 .brand-column .logo-area {
@@ -754,9 +803,7 @@ justify-content: end;
     object-position: center center;
 }
 
-ol, ul {
-    padding-left: 10px;
-}
+
 
 .brand-column p {
     font-size: 16px;
@@ -771,24 +818,24 @@ ol, ul {
 }
 
 .social-icons a {
-  color: #fff;
-  background-color: #7a7a7a;
-  width: 35px;
-  height: 35px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin-right: 10px;
-  text-decoration: none;
-  transition: background 0.3s ease;
+    color: #fff;
+    background-color: #7a7a7a;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease;
 }
 
 .social-icons a:hover {
-  background-color: var(--accent-color);
+    background-color: var(--accent-color);
 }
 
-.sub-column ul li{
+.sub-column ul li {
     font-size: 16px;
     line-height: 1.6;
     color: #ffffff;
@@ -797,10 +844,10 @@ ol, ul {
 }
 
 .contact-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 15px;
-  color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .contact-column p {
@@ -811,25 +858,25 @@ ol, ul {
 }
 
 .contact-item .icon {
-  margin-right: 12px;
-  color:#000;
-  font-size: 16px;
+    margin-right: 12px;
+    color: #000;
+    font-size: 16px;
 }
 
 .footer-column ul {
     list-style: none;
-    
+
 }
 
 .footer-column ul li {
-    margin-bottom: 1px;
+    margin-bottom: 10px;
 }
 
 .footer-column ul li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
-   
+
 }
 
 .footer-column ul li a:hover {
@@ -838,18 +885,15 @@ ol, ul {
 
 
 .footer-bott {
-  border-top: 1px solid #ffffff;
-  margin-top: 50px;
-  padding: 25px 0;
-}
-
-.footer-bott {
     border-top: 1px solid #ffffff;
     margin-top: 50px;
-    padding: 25px 20px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.footer-wrapp p{
+.footer-wrapp p {
     font-size: 16px;
     line-height: 1.6;
     color: #ffffff;
@@ -860,11 +904,7 @@ ol, ul {
     line-height: 1.6;
     color: #ffffff;
 }
-.footer-bott {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
+
 
 /*
 border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -873,5 +913,3 @@ border-top: 1px solid rgba(255, 255, 255, 0.1);
     */
 
 /*js style*/
- 
-
