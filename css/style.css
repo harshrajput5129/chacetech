@@ -672,7 +672,7 @@ header.site-header {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #dad6d6;
 }
 
 .testimonial-slider .swiper-button-prev svg,
@@ -684,7 +684,7 @@ header.site-header {
 
 .testimonial-slider .swiper-button-prev svg path,
 .testimonial-slider .swiper-button-next svg path {
-    fill: #F60808;
+    fill: #000;
 }
 
 .icons {
@@ -776,7 +776,7 @@ header.site-header {
 
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    grid-template-columns: 1.5fr 1fr 1.5fr 1.5fr;
     gap: 40px;
 }
 
@@ -859,7 +859,7 @@ header.site-header {
 
 .contact-item .icon {
     margin-right: 12px;
-    color: #000;
+    color: #c62828;
     font-size: 16px;
 }
 
